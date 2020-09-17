@@ -41,3 +41,13 @@ const Header = () => {
     return <div>user</div>
 }
 ```
+
+to load image lazly use library react-simple-img
+```
+<SimpleImg
+    src="imageUrl"
+    animationDuration="1"
+    width={200} height={200}
+    applyAspectRatio="true"
+/>
+```
